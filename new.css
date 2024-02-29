@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.hero{
+   
+    height: 100vh;
+    width:100%;
+    color:brown;
+    position: relative;
+    background : url('els.jpg');
+    background-size: cover;
+}
+nav{
+    display:flex;
+    align-items:center;
+    padding: 20px 8%;
+}
+nav.add-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+nav ul{
+    flex: 1;
+    text-align:right;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:blueviolet;
+}
+   section{
+    height: 100vh;
+    width: auto;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background:no-repeat;
+    justify-content: center;
+       }
+   #About{
+      text-align: right;
+      margin-top: -10px;
+    background: url('two.jpg');
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+       }
+   #Features{
+    background: url('cu.jpg');
+    background-size: cover;
+    text-align: start;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: start;
+    padding-left: 100px;
+    /* margin-right: 10px; */
+   }
+ 
+   #Template{
+    background-image: url('bc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: rgb(21, 247, 247);
+}
+   .id{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-image:url(tem.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+   }
+   #Model{
+    background-image: url(ba.jpg);
+    text-align: center;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .card{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-image: url(ba.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+   }
+   .card1{
+    background-image: url(pa.jpg);
+   }
+   .card2{
+    background-image: url(pu.jpg);
+   }
+   .card3{
+    background-image: url(tha.jpg);
+   }
+   .card:hover{
+    transform: translateY(-10px);
+   }
+   #Contact{
+    background: url('me.jpg');
+    background-size: cover;
+    align-items: right;
+    background-repeat: no-repeat;
+   } 
+   #Pic{
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   
+   #Help{
+    text-align: right;
+    margin-right: auto;
+    display: flex;
+    padding: 100px 100px;
+    padding-left: 20%;
+    background: url('ak2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+   }
+   
